@@ -17,6 +17,7 @@ Members:
                    Buffer Manager: 
 
 /********************************************************/
+
 Buffer manager manages a buffer of blocks in memory including reading/flushing to disk and block replacement.
 
 We have used replacement strategies FIFO and LRU for the buffer manager.
@@ -27,6 +28,7 @@ We have used replacement strategies FIFO and LRU for the buffer manager.
                       How to Run:
 
 /********************************************************/
+
 make assignment2  (to run default testcases)
 
 make assign2_clock (to run test cases, to test the clock replacement strategy)
@@ -69,6 +71,7 @@ It provides test cases to test the clock replacement strategy for buffer manager
                Functions used and their purpose:
 
 /********************************************************/
+
 1.INITBUFFERPOOL : Creates the buffer manager and initializes the metadata structures.
 
 2.SHUTDOWNBUFFERPOOL: Used to free up all resources associated with the buffer pool.
